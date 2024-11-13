@@ -22,6 +22,7 @@ nav {
   align-items: center;
   height: 66px;
   border-bottom: 1px solid rgba(51, 51, 51, 0.138);
+  margin-bottom: 15px;
 }
 
 .nav-links {
@@ -65,7 +66,7 @@ body {
 }
 
 .product-description {
-  color:cornflowerblue;
+  color:#1e90ff;
 }
 
 .candle-one {
@@ -74,9 +75,14 @@ body {
   margin: 20px;
 }
 
+.candle-one:hover {
+  border: 1px solid;
+  box-shadow: 7px 7px #888888;
+}
+
 .our-products {
   text-align: center;
-  color:mediumpurple;
+  color: #1e90ff;
 }
 
 hr {
@@ -109,6 +115,7 @@ hr {
   border-radius: 8px;
   width: 300px;
   animation: fadeInUp 1s ease;
+  margin-left: 13%;
 }
 
 .form-group {
@@ -159,15 +166,10 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 40px;
-}
-
 .wrapper {
-  margin: 0 0 20px 0;
-  width: 900px;
+ margin-left: 10%;
+  width: 80%;
   height: 400px;
-  border: 2px solid #c39a70;
   display: grid;
   grid-gap: 7px;
   grid-template-columns: repeat(4, 80px);
@@ -179,7 +181,7 @@ body {
 
 
 .box {
-  background-color: #bfab7b;
+  background-color:#1e90ff;
   color: #fff;
   border-radius: 5px;
   padding: 20px;
@@ -203,4 +205,23 @@ body {
 .item4 {
   grid-column: 3 / 5;
   text-align: center;
+}
+
+.maps {
+  margin-right: 13%;
+}
+
+
+.subscribeButton {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.subscribeButton:hover {
+  background-color: #45a049;
 }
